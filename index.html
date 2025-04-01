@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wizard</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+#container{
+    margin: 5px 0px 0px 50px;
+    border-radius: 20px;
+    padding: 20px 20px 40px 20px;
+}
+        #main{
+            margin: 10px;
+           
+            width: 96%;
+            
+            margin: 0px 0px 0px 50px;
+           
+        }
+
+        nav ul li{
+            display: inline;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+        #wizard{
+
+            font-size: 25px;
+            font-weight: bolder;
+            margin: 0px 500px 0px 0px;
+            
+        }
+        li a button{
+            background-color: white;
+            border: 1px solid black;
+            height: 25px;
+            border-radius: 5px;
+        }
+        #div1{
+
+            width: 500px;
+            height: 400px;
+/*            display: flex;*/
+/*            background-color: red;*/
+            margin: 30px 0px 0px 0px;
+/*            float: left;*/
+        }
+        #div2{
+
+          position: absolute;
+          right: 180px;
+          margin: 30px 0px 0px 0px ;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: bolder;
+            font-family: arial;
+            margin: -5px 0px 0px 0px;
+        }
+        #book{
+            height: 35px;
+            width: 200px;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        img{
+            height: 400px;
+            width: 500px;
+        }
+        #mother{
+        display: flex;
+        }
+        #nav2 ul li{
+         display: inline;
+         padding: 80px;
+        font-weight: bolder;
+        font-size: 25px;
+        margin: 0px 0px 0px -55px;
+        }
+        #div4{
+            display: flex;
+            margin: 20px;
+            margin: 40px 0px 0px 0px;
+        }
+        #lorem{
+        
+        height: 30px;
+        width: 800px;
+        margin: 10px 0px 0px 20px;
+        }
+        #highlight{
+            font-size: 30px;
+            font-weight: bolder;
+            font-family: Berlin Sans FB Demi;
+            padding: 15px;
+            background-color: #97f235;
+            height: 25px;
+            width: 115px;
+            padding: 0px 0px 10px 0px ;
+            margin: 10px 0px 0px 0px ;
+        }
+        #div5{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 20px 0px 0px;
+        }
+       
+       .sub{
+        margin: 30px;
+        display: flex;
+/*        background-color: red;*/
+        width: 40%;
+        height: 300px;
+       }
+
+.img{
+    height: 150px;
+    width: 200px;
+   margin: 65px 0px 0px 120px;
+    
+}
+.search{
+    font-size: 30px;
+   
+    font-family: ariel;
+    margin: 15px 0px 0px 25px;
+}
+#sub_1,#sub_4{
+    border: 2px solid black;
+    box-shadow: 2px 10px 10px;
+    border-radius: 20px;
+}
+#sub_2,#sub_3{
+    background-color: black;
+    border-radius: 20px;
+}
+/*#search,#email{
+    background-color: #97f235;
+    height: 70px;
+}
+#pay,#media{
+    background-color: white;
+}*/
+h3{
+    background-color: #97f235;
+}
+#pay,#media{
+    background-color: white;
+}
+#sub_1,#sub_2,#sub_3,#sub_4{
+    flex-wrap: wrap;
+}
+h4{
+    font-size: 25px;
+    margin: 0px 0px 0px 20px;
+}
+#div6{
+    background-color: #bfbfbd;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    padding: 10px;
+    width: 85%;
+}
+#img1 img{
+   height: 300PX;
+   width: 200PX;
+   position:relative;
+   right:-500px;
+
+#lorem2{
+        
+        height: 30px;
+        width: 500px;
+       
+        }
+}
+#h2{
+    margin: 40px 0px 0px 10px;
+    height: 20px;
+    width: 500px;
+}
+#button{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 300px;
+}
+#div7{
+    display: flex;
+    margin: 55px 0px 0px 0px ;
+}
+#case h2{
+    height: 10px;
+    width: 140px;
+    background-color: #92e665;
+    padding: 10px 10px 25px 10px;
+}
+#lorem3{
+    width: 800px;
+    margin: 3px 0px 0px 20px;
+}
+#div8{
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    padding: 5px;
+    width: 87%;
+    margin: 30px 0px 0px 0px ;
+
+}
+.lorem5{
+    width: 300px;
+    color: white;
+    padding: 50px;
+}
+.learn{
+    color: #97f235;
+    margin: 0px 0px 40px 50px;
+}
+.vertical_line{
+    width: 2px;
+    height: 200px;
+    background-color: white;
+    margin: 40px 0px 0px 0px;
+}
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+    <div id="main">
+<header>
+      <nav class="nav">
+        <ul type="none">
+            <li id="wizard"> &#10052 Wizardz</li>
+          
+            <li>
+                <a href="#">About us</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Use Cases</a>
+            </li>
+            <li>
+                <a href="#">pricing</a>
+            </li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#"><button>Request a Quote</button></li></a>
+            </ul>
+    </nav>
+</header>
+</div>
+<div id="mother">
+<div id="div1">
+       <div> <h1>Navigating the digital landscape for success</h1></div>
+        
+          <div id="p"><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since <br>the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+          <div id="child"> <button id="book">Book a consultation</button></div>
+        
+</div>
+    <div id="div2">
+        <img src="assats/images/micro.jpg">
+    </div><br>
+</div>
+<div id="div3"><nav id="nav2">
+     <ul type="none">
+            <li>amazon</li>
+          
+            <li>
+                <a href="#" style="font-family: Harlow Solid Italic;">dribble</a>
+            </li>
+            <li>
+                <a href="#" style="font-family:Berlin Sans FB Demi">Hubspot</a>
+            </li>
+            <li>
+                <a href="#">Notion</a>
+            </li>
+            <li>
+                <a href="#">NETFLIX</a>
+            </li>
+                <li><a href="#">Zoom</a></li>
+            </ul>
+        </nav>
+</div>
+<div id="div4">
+    <div id="highlight">Services</div>
+    <div id="lorem"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p></div>
+</div>
+<div id="div5">
+    <div id="sub_1"  class="sub" >
+       <div class="search"><h3 id="search">Search engine<br> optimization</h3></div>
+       <div ><img src="assats/images/no1.jpg" class="img"></div>
+       <div>
+          <h4> &#8599; Learn more</h4>
+       </div>
+    </div>
+    <div id="sub_2" class="sub">
+       <div class="search"><h3 id="pay"> Pay per click<br> Advertising</h3></div>
+       <div ><img src="assats/images/no2.jpg" class="img"></div>
+       <div>
+          <h4 style="color: white;"> &#8599; Learn more</h4>
+       </div>
+    </div>
+    <div id="sub_3" class="sub">
+    <div class="search">  <h3 id="media"> Social media<br>marketing</h3></div>
+    <div ><img src="assats/images/no3.jpg" class="img"></div>
+    <div>
+          <h4 style="color: white;"> &#8599; Learn more</h4>
+       </div>
+    </div>
+    <div id="sub_4"  class="sub" >
+      <div class="search"> <h3 id="email">E-mail<br>marketing</h3></div> 
+       <div ><img src="assats/images/no4.jpg" class="img"></div>
+       <div>
+           <h4>&#8599; Learn more</h4>
+       </div>
+    </div>
+</div>
+<div id="div6">
+    <div id="h2">
+        <h2>Let's make things happen</h2><br>
+        <p id="lorem2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p> <br>
+        <button id="button">Get your free proposal</button>
+         </div>
+         <div id="img1"><img src="assats/images/s7.SVG" ></div>
+</div>
+<div id="div7">
+    <div id="case">
+       <h2> Case study</h2>
+    </div>
+    <div id="lorem3"> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. </div>
+</div>
+<div id="div8">
+    <div class="footer">
+        <p class="lorem5">
+             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. 
+
+        </p>
+        <h4 class="learn">Learn more &#8599;</h4>
+    </div>
+    <div class="vertical_line"></div>
+    <div class="footer">
+        <p class="lorem5">
+             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. 
+
+        </p>
+        <h4 class="learn">Learn more &#8599;</h4>
+    </div>
+     <div class="vertical_line"></div>
+    <div class="footer">
+        <p class="lorem5">
+             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. 
+
+        </p>
+        <h4 class="learn">Learn more &#8599;</h4>
+    </div>
+</div>
+</div>
+</body>
+</html>
